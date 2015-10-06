@@ -1,7 +1,23 @@
 
 
 body{
-	background-color: rgb(300,600,200);
+	background-color: #336600;
 	font-family: 'Alegreya Sans SC', sans-serif;
 }
-	
+
+
+h1{
+	text-align: center;
+	font-family: 'Denk One', sans-serif;
+
+}	
+
+p{
+	color: #993333;
+}
+
+ul{
+	font-family: 'Cagliostro', sans-serif;
+	color:#333333 ;
+
+}

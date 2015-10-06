@@ -5,6 +5,8 @@ function store (location, minCustomer, maxCustomer,avgCookieCust)
 	this.maxCustomer = maxCustomer;
 	this. avgCookieCust = avgCookieCust;
 	this.randCustHour = function(){return Math.floor(Math.random() * (this.maxCustomer - this.minCustomer + 1)) + this.minCustomer};
+
+
 }	
 var PikeMarketPlace = new store('PikeMarketPlace', 17, 88, 5.2)
 var SeaTacAirport = new store('SeaTacAirport', 6, 44, 1.2)

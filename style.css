@@ -1,15 +1,25 @@
 
 
 body{
-	background-color: #336600;
-	font-family: 'Alegreya Sans SC', sans-serif;
+	background-color: #669999;
+	font-family: 'Amaranth', sans-serif;
+
 }
 
+img.align-center {
+    display: block;
+    margin: 0px auto;
+}
+
+img {
+   padding:10px;
+   border: 5px solid #021a40;
+}	
 
 h1{
 	text-align: center;
-	font-family: 'Denk One', sans-serif;
-
+	font-family: 'Amaranth', sans-serif;
+	text-transform: uppercase;
 }	
 
 p{
@@ -19,5 +29,4 @@ p{
 ul{
 	font-family: 'Cagliostro', sans-serif;
 	color:#333333 ;
-
 }

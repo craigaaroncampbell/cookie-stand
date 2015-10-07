@@ -1,7 +1,28 @@
-
-
-body{
-	background-color: rgb(300,600,200);
-	font-family: 'Alegreya Sans SC', sans-serif;
+body {
+    background-color: rgb(102, 153, 153);
+    font-family: "Amaranth", sans-serif;
 }
+body {
+    display: block;
+    margin: 8px;
+}
+
+img {
+   padding:10px;
+   border:5px solid #FF9966;
+   background-color:#E8E8F0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    text-transform: uppercase;
+}
+
+p{
+	text-align: left;
+	font-family: "Amaranth", sans-serif;
+	color: #993333;
+}
+
 	

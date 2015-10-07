@@ -1,5 +1,25 @@
+body {
+    background-color: rgb(102, 153, 153);
+    font-family: "Amaranth", sans-serif;
+}
+body {
+    display: block;
+    margin: 8px;
+}
 
+img {
+   padding:10px;
+   border:5px solid #FF9966;
+   background-color:#E8E8F0;
+}
 
+h1 {
+    text-align: center;
+    font-family: "Amaranth", sans-serif;
+    text-transform: uppercase;
+}
+
+<<<<<<< HEAD
 body{
 	background-color: #669999;
 	font-family: 'Amaranth', sans-serif;
@@ -30,3 +50,12 @@ ul{
 	font-family: 'Cagliostro', sans-serif;
 	color:#333333 ;
 }
+=======
+h4 {
+	text-align: left;
+	font-family: "Amaranth", sans-serif;
+	color: #993333;
+}
+
+	
+>>>>>>> 7a2c74e0c6cd4e08f491b079ef3413796abd0170

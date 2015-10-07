@@ -16,7 +16,7 @@ var Alki = new store('Alki', 3, 24, 2.6)
     
 
 function makeUL(store, id){
-     var hours = ["10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm", "6pm"];
+     var hours = ["10am", "11am", "12pm", "1pm", "2pm", "3pm", "4pm", "5pm"];
      var awsomeList = document.getElementById(id);
      for (var i = 0; i<hours.length; i++) {
 	 var hourlyCookies = Math.floor(store.randCustHour() * store.avgCookieCust);

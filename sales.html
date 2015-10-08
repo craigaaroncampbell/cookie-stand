@@ -10,42 +10,54 @@
 
 <img src="img/salmon.png" alt="salmon" />
 
-<h1>Pad's Cookie Stand</h1>
+<h1>Pat's Cookie Stand</h1>
 
 <table>
 
-<tr>
-<th></th>
-<th>10am</th>
-<th>11am</th>
-<th>12pm</th>
-<th>1pm</th>
-<th>2pm</th>
-<th>3pm</th>
-<th>4pm</th>
-<th>5pm</th>
-</tr>
+  <tr>
+    <th></th>
+    <th>10am</th>
+    <th>11am</th>
+    <th>12pm</th>
+    <th>1pm</th>
+    <th>2pm</th>
+    <th>3pm</th>
+    <th>4pm</th>
+    <th>5pm</th>
+  </tr>
 
-<tr id = 'PikeMarketPlace'>
-<th scope="row"> Pike Market Place</th>
-</tr>
-<tr id = 'SeaTacAirport'>
-<th scope="row"> SeaTac Airport</th>
-</tr>
-<tr id = 'SouthCenterMall'>
-<th scope="row"> South Center Mall</th>
-</tr>
-<tr id = 'BellevueSquare'>
-<th scope="row"> Bellevue Square</th>
-</tr>
-<tr id = 'Alki'>
-<th scope="row"> Alki</th>
-</tr>
-
-
-
+  <tr id = 'PikeMarketPlace'>
+  <th scope="row"> Pike Market Place</th>
+  </tr>
+  <tr id = 'SeaTacAirport'>
+  <th scope="row"> SeaTac Airport</th>
+  </tr>
+  <tr id = 'SouthCenterMall'>
+  <th scope="row"> South Center Mall</th>
+  </tr>
+  <tr id = 'BellevueSquare'>
+  <th scope="row"> Bellevue Square</th>
+  </tr>
+  <tr id = 'Alki'>
+  <th scope="row"> Alki</th>
+  </tr>
 
 </table>
+
+<form id="newStore">
+
+<h2>Add New Store:</h2>
+    <label for="location">New Location</label><br />
+    <input type="text" name="New Location"> <br />
+    <label for="minCustomer">Min Customer Per Hour</label><br />
+    <input type="text" name="minCustomer"> <br />
+    <label for="maxCustomer">Max Customer Per Hour<label><br />
+    <input type="text" name="maxCustomer"><br />
+    <label for="avgCookieust">Average Cookie Per Customer</label><br />
+    <input type="text" name="avgCookieCust"><br />
+    <button type="click">Submit</button>
+
+</form>
 
 <script src = "app.js"></script>
 

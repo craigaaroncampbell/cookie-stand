@@ -31,6 +31,9 @@ ul{
 	font-family: 'Cagliostro', 'sans-serif';
 	color:#333333 ;
 }
-=======
+
+fieldset{
+  max-width: 170px;
+}
 
 

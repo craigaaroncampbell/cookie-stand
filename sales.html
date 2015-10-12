@@ -1,6 +1,6 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="sales.css">
   <link href='https://fonts.googleapis.com/css?family=Amaranth:700italic' rel='stylesheet' type='text/css'>
   <title>Cookie Stand</title>
 
@@ -8,12 +8,12 @@
 
 <body>
 
-<img src="img/salmon.png" alt="salmon" />
+<img class = "align-center" src="img/salmon.png" alt="salmon" />
 
 <h1>Pat's Cookie Stand</h1>
 
-<table>
 
+<table id = 'storeTable' border='1'>
   <tr>
     <th></th>
     <th>10am</th>
@@ -24,9 +24,10 @@
     <th>3pm</th>
     <th>4pm</th>
     <th>5pm</th>
+    <th>Total</th>
   </tr>
 
-  <tr id = 'PikeMarketPlace'>
+  <!-- <tr id = 'PikeMarketPlace'>
   <th scope="row"> Pike Market Place</th>
   </tr>
   <tr id = 'SeaTacAirport'>
@@ -40,26 +41,23 @@
   </tr>
   <tr id = 'Alki'>
   <th scope="row"> Alki</th>
-  </tr>
-
+  </tr> -->
 </table>
 
 <form id="newStore">
-
-<h2>Add New Store:</h2>
+<fieldset>
+<legend>Add New Store:</legend>
     <label for="location">New Location</label><br />
-    <input type="text" name="New Location"> <br />
-    <label for="minCustomer">Min Customer Per Hour</label><br />
-    <input type="text" name="minCustomer"> <br />
-    <label for="maxCustomer">Max Customer Per Hour<label><br />
-    <input type="text" name="maxCustomer"><br />
-    <label for="avgCookieust">Average Cookie Per Customer</label><br />
-    <input type="text" name="avgCookieCust"><br />
-    <button type="click">Submit</button>
-
+    <input type="text" id="location"> <br />
+    <label for="minCustomer">Min Customer/Hour</label><br />
+    <input type="text" id="minCustomer"> <br />
+    <label for="maxCustomer">Max Customer/Hour<label><br />
+    <input type="text" id="maxCustomer"><br />
+    <label for="avgCookieCust">Avg Cookie/Cust</label><br />
+    <input type="text" id="avgCookieCust"><br />
+    <button id="submit"type="click">Submit</button>
+</fieldset>
 </form>
 
 <script src = "app.js"></script>
 
-</body>
-</html>

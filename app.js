@@ -1,3 +1,5 @@
+alert('look at this awesome change I made!!!! It is so awesome. Wow. I mean like dang.');
+
 function store (location, minCustomer, maxCustomer,avgCookieCust)
 {
     this.location = location;
